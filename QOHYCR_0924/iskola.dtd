@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT iskola (tanar+, tantargy+)>
+<!ELEMENT tanar (nev?, szak?)>
+<!ATTLIST tanar kod ID #REQUIRED>
+<!ELEMENT nev (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+<!ELEMENT targy (tnev?, osztaly?)>
+<!ATTLIST targy kod ID #REQUIRED>
+<!ATTLIST targy oktato IDREF #IMPLIED>
+<!ELEMENT tnev (#PCDATA)>
+<!ELEMENT osztaly (#PCDATA)>

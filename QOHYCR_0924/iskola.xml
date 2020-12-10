@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note SYSTEM "iskola.dtd">
+
+<iskola>
+	<tanar kod="tan_01">
+		<nev>Kiss Béla</nev>
+		<szak>Informatika</szak>
+	</tanar>
+	<targy kod="tr_01" oktato="tan_01">
+		<tnev>Számítástechnika alapok</tnev>
+		<osztaly>Harmadik</osztaly>
+	</targy>
+	<tanar kod="tan_02">
+		<nev>Árva Ibolya</nev>
+		<szak>Biológia</szak>
+	</tanar>
+	<targy kod="tr_02" oktato="tan_02">
+		<tnev>Biológia</tnev>
+		<osztaly>Ötödik</osztaly>
+	</targy>
+	<tanar kod="tan_03">
+		<nev>Szabó Elemér</nev>
+		<szak>Technika</szak>
+	</tanar>
+</iskola>
