@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<style>
+			fieldset {
+				border-radius: 10px;
+				background: #CCD9FF;
+				width: 50%;
+			}
+			
+			input[type=text] {
+				width: 200px;
+			}
+			
+			input[type=number] {
+				width: 50px;
+			}
+			
+			label {
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>HTML 5 űrlap</h1>
+		<form action="NE_feldolgozo.php" method="POST">
+			<fieldset>
+				<label>Név:</label>
+				<input type="text" name="nev" placeholder="Írd be a neved..." />
+				<br />
+				
+				<label>PIN kód:</label>
+				<input type="text" name="pin" placeholder="Írd be a PIN kódod..." />
+				<br />
+				
+				<label>Kedvenc gyümölcs:</label>
+				<select name="gyumolcs">
+					<option value="Banán">Banán</option>
+					<option value="Eper">Eper</option>
+					<option value="Meggy">Meggy</option>
+					<option value="Szőlő">Szőlő</option>
+				</select>
+				<br />
+				
+				<label>Életkor:</label>
+				<input type="number" name="eletkor" />
+				<br />
+				
+				<label>Lábméret:</label>
+				<input type="number" name="labmeret" />
+				<br />
+				
+				<label>Önbizalom:</label>
+				0
+				<input type="range" name="onbizalom" value="50" />
+				100
+				<br />
+				
+				<input type="submit" />
+			</fieldset>
+		</form>
+	</body>
+</html>
