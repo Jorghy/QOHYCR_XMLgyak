@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend>
+	<ora id="1_1" type="elmelet">
+		<targy>Szoftver tesztelés</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>Tompa Tamás</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="1_2" type="gyakorlat">
+		<targy>Szoftver tesztelés</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>Tompa Tamás</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="1_3" type="elmelet">
+		<targy>Oracle rendszergazda</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>15</tol>
+			<ig>17</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>DR. Kovács László</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="2_1" type="gyakorlat">
+		<targy>Oracle rendszergazda</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>DR. Kovács László</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="2_2" type="elmelet">
+		<targy>Webes Alkalmazások</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>DR. Bednarik László</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="2_3" type="elmelet">
+		<targy>Adatkezelés XML környezetben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>A1 és A3 között XXXVII. előadó</helyszin>
+		<oktato>DR. Bednarik László</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="3_1" type="elmelet">
+		<targy>Integrált Vállalati Rendszerek</targy>
+		<idopont>
+		<nap>Szerda</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>A1/319</helyszin>
+		<oktato>DR.Samad</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="3_2" type="gyakorlat">
+		<targy>Integrált Vállalati Rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>14</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>DR. Bikfalvi Péter</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="4_1" type="gyakorlat">
+		<targy>Webes Alkalmazások</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>DR. Bednarik László</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+	<ora id="4_2" type="gyakorlat">
+		<targy>Adatkezelés XML környezetben</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>In/6</helyszin>
+		<oktato>DR. Bednarik László</oktato>
+		<szak>Mérnök Informatika</szak>
+	</ora>
+</orarend>

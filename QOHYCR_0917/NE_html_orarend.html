@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<style>
+table{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+   padding: 5px;
+  text-align: center;
+  
+}
+th{
+ background-color: #e6b3ff;
+}
+
+td{
+	background-color: #e6fffd;
+}
+
+
+button{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 50px;
+	background-color: #a7a5f2;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  
+body {
+	color: #53d3ed;
+ }
+}
+</style>
+<body>
+<div>
+<button type="button" onclick="loadXMLDoc()">Órarend</button>
+<br><br>
+<table id="demo" class="center"></table>
+</div>
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "NE_orarend.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i, j, n;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th></th><th>Hétfõ</th><th>Kedd</th><th>Szerda</th><th>Csütörtök</th></tr>";
+  
+  var x = xmlDoc.getElementsByTagName("ora");
+  var h = 8;
+  for(i=8;i<18;i++){
+  table += "<tr>"
+	for (j=0; j<5; j++){
+		if(j==0){
+			table += "<td>"+h+"</td>";
+		}else if (j==1 && i==12 || j==1 && i==13 || j==1 && i==14 || j==2 && i==14 || j==2 && i==15 || j==2 && i==16 || j==3 && i==8 || j==3 && i==9 || j==3 && i==10 || j==3 && i==11 || j==3 && i==16 || j==4 && i==8 || j==4 && i==9 || j==4 && i==14 || j==4 && i==15 || j==4 && i==16 || i==17){
+			table +="<td></td>";
+		}else if(j>0){
+			for (n = 0; n < x.length; n++) {
+				var elem = x[n].getElementsByTagName("tol")[0].childNodes[0].nodeValue;
+				var id = x[n].getAttribute('id');
+				if(elem == i && id.charAt(0)== j){
+					table += "<td rowspan='2'>"+x[n].getElementsByTagName("targy")[0].childNodes[0].nodeValue+"<br>"+
+					x[n].getElementsByTagName("helyszin")[0].childNodes[0].nodeValue+"<br>"+
+					x[n].getElementsByTagName("oktato")[0].childNodes[0].nodeValue+"<br>"+
+					x[n].getElementsByTagName("szak")[0].childNodes[0].nodeValue+"</td>";
+					break;
+				}
+			}
+
+		}
+		
+	}
+	table += "</tr>";
+	h++;
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
+</body>
+</html>
