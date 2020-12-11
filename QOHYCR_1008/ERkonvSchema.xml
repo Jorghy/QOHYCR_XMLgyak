@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ERmodell xmlns:xsi="https://w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ERkonvSchema.xsd">
+	
+	<A a="aID">
+		<b>
+			<x></x>
+			<y></y>
+		</b>
+		<b>
+			<x></x>
+			<y></y>
+		</b>
+		<c>
+			<></> 
+			<></> 
+		</c>
+	</A>
+	
+	<B a="bID">
+		<b>
+			<x></x>
+			<y></y>
+		</b>
+	</B>
+	
+	<C a="cID">
+		<b></b>
+	</C>
+	
+	<AtoB aID="" bID="">
+		<c></c>
+	</AtoB>
+</ERmodell>

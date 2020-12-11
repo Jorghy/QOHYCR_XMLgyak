@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="nevjegykartya.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<nevjegykartyak>
+    <nevjegykartya id="K1">
+        <nev>Teszt Elek</nev>
+        <ceg>
+            <nev>Valami Zrt.</nev>
+            <cim>
+                <iranyitoszam>1080</iranyitoszam>
+                <varos>ZalaEegerszeg</varos>
+                <utca>Egér</utca>
+                <hazszam>10</hazszam>
+            </cim>
+            <telefon korzet="52">5550120</telefon>
+            <weblap>valamizrt.com</weblap>
+        </ceg>
+        <beosztas>Főnök</beosztas>
+        <telefon korzet="30">3334445</telefon>
+        <email>elek.tesz@valamizrt.com</email>
+    </nevjegykartya>
+    <nevjegykartya id="K2">
+       <nev>Teszt János</nev>
+        <ceg>
+            <nev>Valami Zrt.</nev>
+            <cim>
+                <iranyitoszam>1080</iranyitoszam>
+                <varos>ZalaEegerszeg</varos>
+                <utca>Egér</utca>
+                <hazszam>10</hazszam>
+            </cim>
+            <telefon korzet="52">5550120</telefon>
+            <weblap>valamizrt.com</weblap>
+        </ceg>
+        <beosztas>Bérszámfejtő</beosztas>
+        <telefon korzet="30">3334445</telefon>
+        <email>janos.tesz@valamizrt.com</email>
+    </nevjegykartya>
+</nevjegykartyak>
