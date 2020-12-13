@@ -52,12 +52,12 @@
 	</vizsgalat>
 	<betegseg id="1">
 	  <betegseg_neve>Torok gyulladás</betegseg_neve>
-	  <veszelyesseg>4</veszelyesseg>
+	  <veszelyesseg>Gyenge_lefolyasu</veszelyesseg>
 	  <gyogyulasi_ido>2</gyogyulasi_ido>
 	</betegseg>
 	<betegseg id="2">
 	  <betegseg_neve>Innhüvely gyulladás</betegseg_neve>
-	  <veszelyesseg>6</veszelyesseg>
+	  <veszelyesseg>Normal_lefolyasu</veszelyesseg>
 	  <gyogyulasi_ido>3</gyogyulasi_ido>
 	</betegseg>
 	<gyogyszer id="1" b_id="1">
