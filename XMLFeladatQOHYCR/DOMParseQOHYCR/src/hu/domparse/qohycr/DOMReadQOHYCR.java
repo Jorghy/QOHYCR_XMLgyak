@@ -35,16 +35,17 @@ public class DOMReadQOHYCR {
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
-			
+			//XML dokumentum beolvasása
 			Document document = db.parse("D:\\Project\\Eclipse\\DOMParseQOHYCR\\XMLqohycr.xml");
 			Element root = document.getDocumentElement();
-			
+			//DOM fa kiírása
 			printNode(root);
+			//DOM fa módosítása
 			DOMModifyQOHYCR.modifyDuration(root);
+			//DOM fa kiíratása változtatás után
 			printNode(root);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
-
 }
